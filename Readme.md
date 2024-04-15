@@ -1,0 +1,56 @@
+# deepfake_voice_detection
+
+**deepfake_voice_detection** is a Python package for detecting deepfake audio using librosa and keras.
+
+## Installation
+
+You can install **deepfake_voice_detection** via pip:
+
+```bash
+pip install deepfake_voice_detection
+
+
+# Usage
+
+from deepfake_voice_detection import AudioFakeDetector
+
+**Classify an audio from URL**
+
+result = AudioFakeDetector("https://example.com/image.jpg")
+print("Result:", result)
+
+from deepfake_voice_detection import AudioFakeDetector
+
+# Example usage
+audio_file_path = "path_to_audio_file.wav"
+result = AudioFakeDetector(audio_file_path)
+
+if result == "FAKE":
+    print('Fake audio')
+else:
+    print('Real audio')
+
+# Description
+This package provides a pre-trained deepfake audio detection model that can classify audio as real or fake. It uses librosa for audio processing and keras for deep learning tasks.
+
+# Contributing
+Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+In this README.md:
+
+- The package name, description, installation instructions, and usage examples are provided.
+- A brief description of the package and its purpose is included.
+- Guidance for contributing to the project and licensing information are provided.
+- It includes placeholders for updating tests and the license file.
+
+Feel free to customize it further to suit your specific needs and provide more detailed information about your package.
+
+
+

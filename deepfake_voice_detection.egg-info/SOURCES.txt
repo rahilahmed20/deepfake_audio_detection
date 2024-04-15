@@ -1,0 +1,8 @@
+setup.py
+deepfake_voice_detection/__init__.py
+deepfake_voice_detection/main.py
+deepfake_voice_detection.egg-info/PKG-INFO
+deepfake_voice_detection.egg-info/SOURCES.txt
+deepfake_voice_detection.egg-info/dependency_links.txt
+deepfake_voice_detection.egg-info/requires.txt
+deepfake_voice_detection.egg-info/top_level.txt
